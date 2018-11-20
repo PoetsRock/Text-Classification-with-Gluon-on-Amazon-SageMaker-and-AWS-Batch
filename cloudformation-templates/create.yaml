@@ -131,7 +131,7 @@ Parameters:
     Description: Image ID for base EC2 instance.
     Type: AWS::EC2::Image::Id
     # Deep Learning AMI AmazonLinux - 1.0
-    Default: ami-895adef3
+    Default: ami-0454f6c5e35766c6e
   InstanceType:
     Description: Instance type to launch EC2 instances.
     Type: String
