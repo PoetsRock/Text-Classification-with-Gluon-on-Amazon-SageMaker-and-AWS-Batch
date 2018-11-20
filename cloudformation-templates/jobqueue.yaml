@@ -5,7 +5,7 @@ Parameters:
   s3uniqueprefix: 
     Description: This will be the prefix on all s3 buckets.  
     Type: String
-    Default: my-mxnet-demo
+    Default: chris-aws-batch-demo
   JobQueueName:
     Description: This is the name of the job queue you wish to use
       unique
