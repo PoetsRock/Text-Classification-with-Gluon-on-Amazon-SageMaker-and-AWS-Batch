@@ -9,7 +9,7 @@ Parameters:
   s3uniqueprefix: 
     Description: This will be the prefix on all s3 buckets.  
     Type: String
-    Default: my-mxnet-demo
+    Default: chris-aws-batch-demo
   ComputeEnvironmentName:
     Description: This is the name for the compute environment you wish to use
     Type: String
@@ -49,19 +49,18 @@ Parameters:
     Description: HQ User CIDR
     Default: 10.0.0.0/8
   AWSBatchLambdaCodeKey:
-    ConstraintDescription: Bucket Folder Structure (Prefix) and File Location for
-      the Code
+    ConstraintDescription: Bucket Folder Structure (Prefix) and File Location for the Code
     Description: Bucket Location for Lambda Code
     Type: String
     Default: mxnet_batch_lambda/lambda_function.zip
   LambdaCodeBucket:
     Description: Bucket for the Lambda Code
     Type: String
-    Default: 'mxnet-lambda-tanseer'
+    Default: mxnet-lambda-tanseer
   IMAGE:
     Description: The respository URI from ECS Containers
     Type: String
-    # {account-id}.dkr.ecr.{region}.amazonaws.com/languagemodel
+     #{account-id}.dkr.ecr.{region}.amazonaws.com/languagemodel
   vcpus:
     Description: The number of cpus for the particular machine we want to use
     Type: String

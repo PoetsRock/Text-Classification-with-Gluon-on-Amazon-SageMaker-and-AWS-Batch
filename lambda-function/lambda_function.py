@@ -34,7 +34,7 @@ def lambda_handler(event, context):
         the most recent job queue
     """
     try:
-        client = boto3.client('batch', region_name='us-east-1')
+        client = boto3.client('batch', region_name='us-west-2')
 
         ce = client.describe_compute_environments(
                                 computeEnvironments=[ENVIRONMENTNAME]

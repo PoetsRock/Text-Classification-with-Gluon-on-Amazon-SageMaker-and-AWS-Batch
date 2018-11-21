@@ -31,11 +31,11 @@
 
     "save_name" : "model.params",
 
-    "MODELPARAMSURL" : "batch-mxnet-demo-model-paramameters",
+    "MODELPARAMSURL" : "chris-aws-batch-demo-model-paramameters",
 
-    "TRANSFORMERURL" : "batch-mxnet-demo-text-transformer",
+    "TRANSFORMERURL" : "chris-aws-batch-demo-text-transformer",
 
-    "MODELCONFIGURL" : "batch-mxnet-demo-config-bucket",
+    "MODELCONFIGURL" : "chris-aws-batch-demo-config-bucket",
 
     "epoch_factor" : 4,
 
