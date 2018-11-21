@@ -1,0 +1,8 @@
+{"LambdaFunctionConfigurations": [
+    {
+      "Id": "predict",
+      "LambdaFunctionArn": "arn:aws:lambda:us-west-2:628640522513:function:awsbatch-lambda-predict-function",
+      "Events": ["s3:ObjectCreated:*"]
+      }
+    ]
+}
